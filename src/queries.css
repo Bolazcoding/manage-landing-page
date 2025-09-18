@@ -239,7 +239,7 @@
   }
 
   .footer-social {
-    gap: 7rem;
+    gap: 6rem;
   }
 
   .social-icon {
@@ -315,22 +315,32 @@
     top: 65.8%;
   }
 
-  .slider__btn--left {
-    left: 10%;
+  .footer-email {
+    padding: 1.5rem 5rem 1.5rem 2rem;
   }
 
-  .slider__btn--right {
-    right: 10%;
+  .footer-submit {
+    padding: 1.7rem 4rem;
+  }
+
+  .social-icon {
+    transform: scale(1.5); /* doubles size */
+    transform-origin: center; /* keeps it centered */
   }
 }
 
+/* // 370px */
 @media only screen and (max-width: 23.125em) {
+  html {
+    font-size: 42.25%;
+  }
+
   .container {
     max-width: 40rem;
   }
 
   .hero-intro {
-    width: 45rem;
+    width: 40rem;
   }
 
   .hero-header {
@@ -347,5 +357,9 @@
 
   .slider__btn {
     top: 66.55%;
+  }
+
+  .footer-social {
+    gap: 5rem;
   }
 }
