@@ -311,7 +311,7 @@
   }
 
   .container {
-    max-width: 43rem;
+    max-width: 40rem;
   }
 
   .hero-intro {
@@ -339,6 +339,7 @@
   .about-text,
   .about-text2 {
     font-size: 1.8rem;
+    padding: 0 1rem;
   }
 
   .general-small-header {
@@ -351,7 +352,7 @@
   }
 
   .slider__btn {
-    top: 62.9%;
+    top: 63.2%;
   }
 
   .footer-email {
@@ -375,7 +376,7 @@
   }
 
   .container {
-    max-width: 40rem;
+    max-width: 35rem;
   }
 
   .hero-intro {
@@ -395,7 +396,7 @@
   }
 
   .slider__btn {
-    top: 62.55%;
+    top: 64.8%;
   }
 
   .slider__btn--left {
