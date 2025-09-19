@@ -210,6 +210,9 @@ a {
   background-color: var(--gray-50);
   text-align: center;
   padding: 2.5rem;
+
+  /* THIS creates the animation! */
+  transition: transform 0.8s ease, opacity 0.8s ease;
 }
 
 .testimonials-image {
