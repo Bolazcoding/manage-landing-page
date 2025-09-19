@@ -110,7 +110,7 @@
     /* display: block; */
     background-color: #fff;
     width: 80%;
-    height: 45vh;
+    height: 42vh;
     top: 3.2%;
     left: 9.5%;
     position: absolute;
@@ -276,7 +276,7 @@
   }
 
   .sidebar-body {
-    padding: 2.5rem 0;
+    padding: 2rem 0;
   }
 
   .footer-section-body {
@@ -395,9 +395,9 @@
     left: 15%;
   }
 
-  /* .sidebar-body {
-    padding: 5rem 0;
-  } */
+  .sidebar-body {
+    padding: 3rem 0;
+  }
 }
 
 /* // 460px */
@@ -513,10 +513,6 @@
     right: 16%;
     transform: translate(50%, -50%);
   }
-
-  /* .sidebar {
-    height: 35vh;
-  } */
 
   .footer-social {
     gap: 5rem;
