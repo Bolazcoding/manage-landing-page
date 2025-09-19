@@ -1,3 +1,8 @@
+const navLink = document.querySelectorAll('.list-item');
+const openMenu = document.querySelector('.open-menu');
+const closeMenu = document.querySelector('.close-menu');
+const mobileNav = document.querySelector('.sidebar');
+const overlay = document.querySelector('.overlay');
 const slider = document.querySelectorAll('.slider');
 const btnLeft = document.querySelector('.slider__btn--left');
 const btnRight = document.querySelector('.slider__btn--right');
@@ -63,3 +68,44 @@ const validateEmail = function (e) {
 };
 
 form.addEventListener('submit', validateEmail);
+
+// Mobile Navigation
+
+// Open Navigation Menu
+const menuOpen = function () {
+  mobileNav.classList.remove('hidden');
+  overlay.classList.remove('hidden');
+  openMenu.style.display = 'none';
+  closeMenu.style.display = 'block';
+};
+
+openMenu.addEventListener('click', menuOpen);
+
+// Close Navigation Menu
+const menuClose = function () {
+  mobileNav.classList.add('hidden');
+  overlay.classList.add('hidden');
+  openMenu.style.display = 'block';
+  closeMenu.style.display = 'none';
+};
+
+closeMenu.addEventListener('click', menuClose);
+
+// Close Menu using each nav list
+navLink.forEach(function (item) {
+  item.addEventListener('click', menuClose);
+});
+
+// Close Menu by clicking on the overlay
+overlay.addEventListener('click', menuClose);
+
+// Close Menu by clicking on the escape key on the keyboard
+document.addEventListener('keydown', function (e) {
+  // console.log(e.key);
+
+  if (e.key === 'Escape') {
+    if (!mobileNav.classList.contains('hidden')) {
+      menuClose();
+    }
+  }
+});

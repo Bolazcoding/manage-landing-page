@@ -14,7 +14,6 @@
   --gray-950: hsl(233, 12%, 13%);
   --orange-50: hsl(13, 100%, 96%);
   --gray-50: hsl(0, 0%, 98%);
-  --gray-50: #fafafa;
 }
 
 html {
@@ -44,6 +43,10 @@ button {
 }
 
 .open-menu {
+  display: none;
+}
+
+.close-menu {
   display: none;
 }
 
@@ -279,6 +282,10 @@ a {
 .starting-btn:hover,
 .starting-btn:focus {
   opacity: 90%;
+}
+
+.hidden {
+  display: none;
 }
 
 .footer-section {
