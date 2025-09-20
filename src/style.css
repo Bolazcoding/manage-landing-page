@@ -35,6 +35,8 @@ button {
   /* transform: translateZ(0); */
 }
 
+/* HEADER SECTION */
+
 .header-body {
   display: flex;
   justify-content: space-between;
@@ -90,6 +92,8 @@ a {
   background-color: var(--orange-450);
 }
 
+/* HERO SECTION */
+
 .hero-section-body {
   display: flex;
   padding-top: 7rem;
@@ -123,6 +127,8 @@ a {
 .hero-btn {
   margin-top: 2.5rem;
 }
+
+/* ABOUT SECTION */
 
 .about-section {
   margin-top: 10rem;
@@ -173,6 +179,8 @@ a {
   font-weight: 700;
   color: var(--blue-950);
 }
+
+/* TESTIMONIALS SECTION */
 
 .testimonials-section {
   margin-top: 10rem;
@@ -256,6 +264,8 @@ a {
   transform: translate(50%, -50%);
 }
 
+/* STARTING SECTION */
+
 .starting-section {
   background-color: var(--orange-400);
 }
@@ -290,6 +300,8 @@ a {
 .hidden {
   display: none;
 }
+
+/* FOOTER SECTION */
 
 .footer-section {
   background-color: var(--gray-950);
@@ -369,6 +381,7 @@ a {
 .invalid {
   color: var(--orange-400);
   font-style: italic;
+  font-size: 1.2rem;
   padding-top: 0.5rem;
   padding-left: 1.5rem;
   display: none;
