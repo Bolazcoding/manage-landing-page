@@ -27,7 +27,7 @@ Users should be able to:
 
 - Desktop Preview
 
-![](./images/Desktop%20preview.png)
+![](./images/Desktop%20Preview.png)
 
 - Tablet Preview
 
@@ -35,7 +35,7 @@ Users should be able to:
 
 - Mobile Preview
 
-![](./images/Mobile%20preview.png)
+![](./images/Mobile%20Preview.png)
 
 ### Links
 
